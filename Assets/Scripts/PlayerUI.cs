@@ -17,6 +17,9 @@ public class PlayerUI : MonoBehaviour
     private GameObject pauseMenu;
 
     [SerializeField]
+    private GameObject ChatMenu;
+
+    [SerializeField]
     private GameObject scoreboard;
 
     private Player player;
@@ -46,6 +49,11 @@ public class PlayerUI : MonoBehaviour
             TogglePauseMenu();
         }
 
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            ToggleChatMenu();
+        }
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             scoreboard.SetActive(true);
@@ -60,6 +68,12 @@ public class PlayerUI : MonoBehaviour
     {
         pauseMenu.SetActive(!pauseMenu.activeSelf);
         PauseMenu.isOn = pauseMenu.activeSelf;
+    }
+
+    public void ToggleChatMenu()
+    {
+       ChatMenu.SetActive(!ChatMenu.activeSelf);
+        PauseMenu.isOn = ChatMenu.activeSelf;
     }
 
     void SetFuelAmount(float _amount)

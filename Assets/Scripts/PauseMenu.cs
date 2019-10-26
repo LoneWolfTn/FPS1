@@ -20,4 +20,11 @@ public class PauseMenu : MonoBehaviour
         networkManager.matchMaker.DropConnection(matchInfo.networkId, matchInfo.nodeId, 0, networkManager.OnDropConnection);
         networkManager.StopHost();
     }
+
+
+    public void LeaveGameButton()
+    {
+        Application.Quit();
+    }
+
 }

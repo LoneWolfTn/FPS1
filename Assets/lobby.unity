@@ -237,7 +237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: 39.3}
+  m_AnchoredPosition: {x: -145, y: 39.3}
   m_SizeDelta: {x: 280.5, y: 58.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &164212938
@@ -467,7 +467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &315390361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,7 +904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59.84, y: -34.42}
+  m_AnchoredPosition: {x: -29, y: -34.42}
   m_SizeDelta: {x: 162.36, y: 43.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729896077
@@ -1101,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 38.975}
+  m_AnchoredPosition: {x: 83, y: 38.975}
   m_SizeDelta: {x: 240.2, y: 59.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &808517450
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
@@ -1967,7 +1967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1609913515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,6 +2793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5728661718656715070, guid: 40ad817455c025943982505e6a254498,
+        type: 3}
+      propertyPath: showGUI
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40ad817455c025943982505e6a254498, type: 3}
